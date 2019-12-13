@@ -1,0 +1,5 @@
+- name: Check user under which command is running
+  hosts: all
+  tasks:
+    - name: whoami
+      command: whoami
