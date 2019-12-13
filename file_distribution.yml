@@ -2,6 +2,6 @@
   tasks:
     - name: Transfer file from central server to the rest
       synchronize:
-        src: /home/voice/ansible_test_file
-        dest: /home/voice/ansible_test_file_copy
-      delegate_to: live20-app01.voice.hr.asseco-see.local
+        src: /var/transport_files/
+        dest: /live/update/
+      delegate_to: ansible-awx.voice.hr.asseco-see.local
