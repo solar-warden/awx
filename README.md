@@ -1,2 +1,2 @@
 # awx
-Some yml files taht i nedd for testing AWX (Ansible Tower) on docker.
+Some yml files that I need for testing AWX (Ansible Tower) on docker.
